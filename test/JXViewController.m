@@ -18,6 +18,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *view = [[UIView alloc]init];
+    view.frame  = CGRectMake(10, 20, 20, 20);
+    view.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:view];
+    
+    NSLog(@"test");
+    
+    
+    NSLog(@"test for githug");
+    
 }
 
 - (void)didReceiveMemoryWarning
